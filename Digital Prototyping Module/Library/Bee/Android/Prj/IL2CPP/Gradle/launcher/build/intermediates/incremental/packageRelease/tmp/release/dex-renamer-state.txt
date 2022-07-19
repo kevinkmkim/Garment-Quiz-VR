@@ -1,4 +1,0 @@
-#Thu Jul 14 12:12:43 EDT 2022
-base.0=/Users/kevin/Documents/GitHub/VR-Quiz/Digital Prototyping Module/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
