@@ -1,0 +1,13 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AnswerScript">
+			<method name="Answer"/>
+			<method name="Answer"/>
+			<method name="Answer"/>
+		</type>
+		<type fullname="QuizManager">
+			<method name="proceed"/>
+			<method name="startQuiz"/>
+		</type>
+	</assembly>
+</linker>

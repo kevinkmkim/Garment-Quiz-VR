@@ -117,17 +117,16 @@ public class QuizManager : MonoBehaviour
 
     void generatePattern(string pattern_type)
     {
+        ReviewPanel.SetActive(false);
+        QuizPanel.SetActive(false);
+        PreviewPanel.SetActive(true);
+
         if (pattern_type == "Initial")
         {
-            ReviewPanel.SetActive(false);
-            QuizPanel.SetActive(false);
-            PreviewPanel.SetActive(true);
 
             PatternTxt.text = "Original Pattern";
 
             Model = Instantiate(category[categoryIndex].originalModel, modelPos, modelRot);
-            // GameObject modelChild = Model.transform.GetChild(0).gameObject;
-            // modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
 
             previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].originalPattern;
 
@@ -136,15 +135,11 @@ public class QuizManager : MonoBehaviour
         }
         if (pattern_type == "Final")
         {
-            ReviewPanel.SetActive(false);
-            QuizPanel.SetActive(false);
-            PreviewPanel.SetActive(true);
 
+            Debug.Log("final Pattern");
             PatternTxt.text = "Final Pattern";
 
             Model = Instantiate(category[categoryIndex].finalModel, modelPos, modelRot);
-            // GameObject modelChild = Model.transform.GetChild(0).gameObject;
-            // modelChild.layer = LayerMask.NameToLayer("ReactToMask1");
 
             previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].finalPattern;
 

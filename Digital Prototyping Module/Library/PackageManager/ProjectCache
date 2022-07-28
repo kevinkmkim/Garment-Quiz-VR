@@ -13,8 +13,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637938443430000000
-    m_Hash: 3542424323
+      ticks: 637940266340000000
+    m_Hash: 341793853
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -34,7 +34,7 @@ m_LocalPackages:
       ticks: 0
     m_Hash: 0
 m_ProjectPath: /Users/kevin/Documents/GitHub/VR-Quiz/Digital Prototyping Module/Packages
-m_EditorVersion: 2021.3.6f1 (7da38d85baf6)
+m_EditorVersion: 2021.3.5f1 (40eb3a945986)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.15.18
   testable: 0
@@ -300,7 +300,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.xr.oculus
-    version: 3.0.2
+    version: 3.0.1
   - name: com.unity.xr.management
     version: 4.2.1
   - name: com.unity.modules.subsystems
@@ -404,6 +404,7 @@ m_ResolvedPackages:
     - 3.0.14
     - 3.0.15
     compatible:
+    - 3.0.14
     - 3.0.15
     verified: 3.0.15
   dependencies:
@@ -431,7 +432,7 @@ m_ResolvedPackages:
     revision: b61ff0378932fdf03b5891e09c91728337de674c
     path: 
   unityLifecycle:
-    version: 3.0.15
+    version: 3.0.14
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.16
   testable: 0
@@ -475,6 +476,7 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     compatible:
+    - 2.0.15
     - 2.0.16
     verified: 2.0.16
   dependencies:
@@ -508,7 +510,7 @@ m_ResolvedPackages:
     revision: c01855ef6461b821ab0226135e96a4ee86de96be
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.15
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -3846,12 +3848,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.3
     nextVersion: 
-- packageId: com.unity.xr.oculus@3.0.2
+- packageId: com.unity.xr.oculus@3.0.1
   testable: 0
   isDirectDependency: 0
-  version: 3.0.2
+  version: 3.0.1
   source: 1
-  resolvedPath: /Users/kevin/Documents/GitHub/VR-Quiz/Digital Prototyping Module/Library/PackageCache/com.unity.xr.oculus@3.0.2
+  resolvedPath: /Users/kevin/Documents/GitHub/VR-Quiz/Digital Prototyping Module/Library/PackageCache/com.unity.xr.oculus@3.0.1
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -3926,6 +3928,7 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.0.2
     compatible:
+    - 3.0.1
     - 3.0.2
     verified: 3.0.2
   dependencies:
@@ -3965,16 +3968,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637902872830000000
+  datePublishedTicks: 637847393080000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-    revision: 30917dfa04b89ef9dd41d238a70c569702b25eaa
+    revision: 693d68cfbf45e1de83bad34492bbaa07c530545f
     path: 
   unityLifecycle:
-    version: 3.0.2
+    version: 3.0.1
     nextVersion: 
 - packageId: com.unity.xr.openxr@1.4.2
   testable: 0
