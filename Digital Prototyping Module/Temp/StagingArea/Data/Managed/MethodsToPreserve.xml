@@ -5,9 +5,38 @@
 			<method name="Answer"/>
 			<method name="Answer"/>
 		</type>
+		<type fullname="InstructionManager">
+			<method name="CorrectButtonDown"/>
+			<method name="IncorrectButtonDown"/>
+			<method name="IncorrectButtonDown"/>
+			<method name="OnProceedButtonDown"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="LoadQuiz"/>
+			<method name="LoadQuiz"/>
+			<method name="LoadQuiz"/>
+			<method name="LoadQuiz"/>
+			<method name="LoadQuiz"/>
+			<method name="LoadTutorial"/>
+		</type>
 		<type fullname="QuizManager">
 			<method name="proceed"/>
 			<method name="startQuiz"/>
+			<method name="toMainMenu"/>
+		</type>
+		<type fullname="TutorialAnswerScript">
+			<method name="Answer"/>
+			<method name="Answer"/>
+			<method name="Answer"/>
+		</type>
+		<type fullname="TutorialManager">
+			<method name="toMainMenu"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.VideoModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Video.VideoPlayer">
+			<method name="Pause"/>
+			<method name="Play"/>
 		</type>
 	</assembly>
 </linker>

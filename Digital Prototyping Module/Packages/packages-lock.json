@@ -260,7 +260,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:/Users/kevin/Downloads/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5",
+      "version": "file:/Users/kevin/Developer/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5",
       "depth": 0,
       "source": "local",
       "dependencies": {

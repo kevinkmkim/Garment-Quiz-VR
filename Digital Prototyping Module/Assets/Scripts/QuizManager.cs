@@ -61,6 +61,7 @@ public class QuizManager : MonoBehaviour
     public void GameOver()
     {
         QuizPanel.SetActive(false);
+        PreviewPanel.SetActive(false);
         GOPanel.SetActive(true);
 
         // Destroy(proceedButton);
@@ -106,7 +107,7 @@ public class QuizManager : MonoBehaviour
             options[i].GetComponent<Image>().color = options[i].GetComponent<AnswerScript>().startColor;
 
             options[i].GetComponent<AnswerScript>().isCorrect = false;
-            options[i].transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[i];
+            options[i].transform.GetChild(1).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[i];
 
             if (category[categoryIndex].QnA[currentQuestion].CorrectAnswer == i)
             {
@@ -128,32 +129,40 @@ public class QuizManager : MonoBehaviour
 
             Model = Instantiate(category[categoryIndex].originalModel, modelPos, modelRot);
 
-            previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].originalPattern;
+            previewGarment.transform.GetChild(1).GetComponent<Image>().sprite = category[categoryIndex].originalPattern;
 
             var button = proceedButton;
             button.onClick.AddListener(() => startQuiz());
         }
         if (pattern_type == "Final")
         {
-
+            PreviewPanel.SetActive(true);
             Debug.Log("final Pattern");
             PatternTxt.text = "Final Pattern";
 
             Model = Instantiate(category[categoryIndex].finalModel, modelPos, modelRot);
 
-            previewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].finalPattern;
+            previewGarment.transform.GetChild(1).GetComponent<Image>().sprite = category[categoryIndex].finalPattern;
 
             var button = proceedButton;
-            button.onClick.AddListener(() => GameOver());
+            // button.onClick.AddListener(() => GameOver());
+            button.onClick.RemoveListener(startQuiz);
+            button.onClick.AddListener(GameOver);
         }
     }
 
     public void startQuiz()
     {
-        // Destroy(proceedButton);
-        Destroy(Model);
-        generateQuestion();
-        PreviewPanel.SetActive(false);
+        if (category[categoryIndex].QnA.Count == 0)
+        {
+            GameOver();
+        }
+        else
+        {
+            PreviewPanel.SetActive(false);
+            Destroy(Model);
+            generateQuestion();
+        }
     }
 
     void generateQuestion()
@@ -202,7 +211,7 @@ public class QuizManager : MonoBehaviour
         // reviewModelChild.layer = LayerMask.NameToLayer("ReactToMask2");
 
         int answerIndex = category[categoryIndex].QnA[currentQuestion].CorrectAnswer;
-        reviewGarment.transform.GetChild(0).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[answerIndex];
+        reviewGarment.transform.GetChild(1).GetComponent<Image>().sprite = category[categoryIndex].QnA[currentQuestion].Answers[answerIndex];
         
         category[categoryIndex].QnA.RemoveAt(currentQuestion);
     }

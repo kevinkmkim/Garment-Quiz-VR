@@ -308,7 +308,7 @@
         <HintPath>/Users/kevin/Documents/GitHub/VR-Quiz/Digital Prototyping Module/Library/PackageCache/com.unity.collab-proxy@1.15.18/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-        <HintPath>/Users/kevin/Downloads/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5/Runtime/Android/LitJson.dll</HintPath>
+        <HintPath>/Users/kevin/Developer/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5/Runtime/Android/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>/Users/kevin/Documents/GitHub/VR-Quiz/Digital Prototyping Module/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>

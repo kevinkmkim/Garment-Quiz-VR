@@ -28,7 +28,9 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -38,7 +40,9 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -57,14 +61,37 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "InstantiateButton",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "InstructionManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MainMenu",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -72,7 +99,9 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -89,7 +118,9 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -120,7 +151,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -176,6 +208,20 @@
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TutorialAnswerScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TutorialManager",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -258,6 +304,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorController",
+            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Tutorial.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioManager",
             "fullManagedTypeName": "UnityEditor.AudioManager",
             "moduleName": "Audio",
@@ -283,7 +338,10 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -330,11 +388,31 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimationClip",
+            "fullManagedTypeName": "UnityEngine.AnimationClip",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Tutorial.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Animator",
+            "fullManagedTypeName": "UnityEngine.Animator",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Tutorial.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioBehaviour",
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -344,7 +422,8 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -353,7 +432,9 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -363,7 +444,8 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -372,7 +454,9 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -382,7 +466,9 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -392,7 +478,10 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -401,7 +490,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasGroup",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity"
             ]
         },
         {
@@ -410,7 +499,10 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -419,7 +511,7 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity"
             ]
         },
         {
@@ -428,7 +520,8 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Training.unity"
             ]
         },
         {
@@ -437,7 +530,9 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -463,7 +558,9 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -472,7 +569,9 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -524,7 +623,9 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -543,7 +644,9 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -562,7 +665,10 @@
             "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -571,7 +677,9 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -581,7 +689,10 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -590,7 +701,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Training.unity"
             ]
         },
         {
@@ -599,7 +710,10 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -608,7 +722,10 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -617,7 +734,19 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Motion",
+            "fullManagedTypeName": "UnityEngine.Motion",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -626,7 +755,9 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -643,7 +774,10 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -652,7 +786,10 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -668,7 +805,27 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderTexture",
+            "fullManagedTypeName": "UnityEngine.RenderTexture",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Training.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RuntimeAnimatorController",
+            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
+            "moduleName": "Animation",
+            "usedInScenes": [
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -678,7 +835,9 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -695,7 +854,10 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -704,7 +866,7 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity"
             ]
         },
         {
@@ -713,7 +875,10 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Quiz.unity"
+                "Assets/Scenes/Menu.unity",
+                "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
+                "Assets/Scenes/Tutorial.unity"
             ]
         },
         {
@@ -722,7 +887,9 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -732,7 +899,9 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -742,7 +911,9 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Scenes/Quiz.unity",
+                "Assets/Scenes/Training.unity",
                 "Assets/Scenes/Tutorial.unity"
             ]
         },
@@ -777,9 +948,34 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.RawImage",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.Text",
             "moduleName": "",
             "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VideoClip",
+            "fullManagedTypeName": "UnityEngine.Video.VideoClip",
+            "moduleName": "Video",
+            "usedInScenes": [
+                "Assets/Scenes/Training.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VideoPlayer",
+            "fullManagedTypeName": "UnityEngine.Video.VideoPlayer",
+            "moduleName": "Video",
+            "usedInScenes": [
+                "Assets/Scenes/Training.unity"
+            ]
         },
         {
             "managedAssemblyName": "Unity.XR.Interaction.Toolkit.dll",
@@ -932,6 +1128,13 @@
             "managedAssemblyName": "Unity.XR.OpenXR.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.OpenXR.OpenXRSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VideoProgressBar",
             "moduleName": "",
             "usedInScenes": []
         }

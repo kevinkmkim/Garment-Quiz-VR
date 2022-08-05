@@ -5,28 +5,28 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637938443420000000
-    m_Hash: 3910163670
+      ticks: 637952262460000000
+    m_Hash: 4254044914
   m_LockFileStatus:
     m_FilePath: /Users/kevin/Documents/GitHub/VR-Quiz/Digital Prototyping Module/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637940266340000000
-    m_Hash: 341793853
+      ticks: 637952262470000000
+    m_Hash: 1983261190
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: /Users/kevin/Downloads/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5/package.json
+  - m_FilePath: /Users/kevin/Developer/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5/package.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 637889048140000000
     m_Hash: 4160848852
-  - m_FilePath: /Users/kevin/Downloads/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5
+  - m_FilePath: /Users/kevin/Developer/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -1503,13 +1503,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.2.0
     nextVersion: 
-- packageId: com.unity.xr.picoxr@file:/Users/kevin/Downloads/Pico UnityXR SDK 2.0.5/Pico
+- packageId: com.unity.xr.picoxr@file:/Users/kevin/Developer/Pico UnityXR SDK 2.0.5/Pico
     UnityXR SDK v2.0.5
   testable: 0
   isDirectDependency: 1
   version: 2.0.5
   source: 4
-  resolvedPath: /Users/kevin/Downloads/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5
+  resolvedPath: /Users/kevin/Developer/Pico UnityXR SDK 2.0.5/Pico UnityXR SDK v2.0.5
   assetPath: Packages/com.unity.xr.picoxr
   name: com.unity.xr.picoxr
   displayName: PicoXR Plugin
@@ -4016,8 +4016,10 @@ m_ResolvedPackages:
     - 1.4.0
     - 1.4.1
     - 1.4.2
+    - 1.5.0-exp.1
     compatible:
     - 1.4.2
+    - 1.5.0-exp.1
     verified: 1.4.2
   dependencies:
   - name: com.unity.xr.management
